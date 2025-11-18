@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Armando Tabarez">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About | Le Unique Generator</title>
+	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/responsiveslides.css" />
+	<link href="./images/favicon.ico" rel="icon" type="image/x-icon"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/responsiveslides.js"></script>
+	<script>
+		$(function () {
+			var $slider = $("#slider");
+			if ($slider.length && $.fn.responsiveSlides) {
+				$slider.responsiveSlides({
+					auto: true,
+					pager: false,
+					nav: true,
+					speed: 600,
+					timeout: 5000,
+					maxwidth: 962,
+					namespace: "centered-btns"
+				});
+			}
+		});
+	</script>
+</head>
+<body>
+
+<header>
+	<div class="wrap-header zerogrid">
+		<div id="logo"><a href="#"><img src="./images/Logo-LUG.png" alt="Le Unique Generator logo"/></a></div>
+	</div>
+</header>
+
+<nav>
+	<div class="wrap-nav zerogrid">
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li class="current"><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div class="minimenu"><div>MENU</div>
+			<select aria-label="Site navigation" onchange="location=this.value">
+				<option></option>
+				<option value="index.html">Home</option>
+				<option value="services.html">Services</option>
+				<option value="products.html">Products</option>
+				<option value="about.html">About</option>
+				<option value="contact.html">Contact</option>
+			</select>
+		</div>		
+	</div>
+</nav>
+
+<section id="content">
+	<div class="wrap-content zerogrid">
+		<div class="row block03">
+			<div class="col-2-3">
+				<div class="wrap-col">
+					<article>
+						<img src="images/img1.png" alt="Le Unique Generator restoration team"/>
+						<h2>About Le Unique Generator</h2>
+						<div class="info">[By Armando Tabarez on December 01, 2022 with <a href="#">01 Comments</a>]</div>
+						<p>Le Unique Generator is dedicated to preserving and modernizing classic welding generators. From frame-off restorations to custom upgrades, we keep trusted machines ready for the job site.</p>
+						<p>Our crew combines hands-on field experience with precision machining, giving each build the reliability and finish our customers expect.</p>
+						<div class="comment">
+							Your email address will not be published. Required fields are marked *
+							<form>
+								<div>
+									<label for="name">Name *</label>
+									<input type="text" name="name" id="name" required>
+								</div>
+								<div>
+									<label for="email">Email *</label>
+									<input type="email" name="email" id="email" required>
+								</div>
+								<div>
+									<label for="website">Website</label>
+									<input type="url" name="website" id="website" placeholder="https://example.com">
+								</div>
+								<div>
+									<label for="comment">Comment *</label>
+									<textarea rows="10" name="comment" id="comment" required></textarea>
+								</div>
+								<div><input type="submit" name="submit" value="Submit"></div>
+							</form>
+						</div>
+					</article>
+				</div>
+			</div>
+			<div class="col-1-3">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2>Past Builds</h2></div>
+						<div class="content">
+							<img src="images/albums.png" alt="Photo collage of generator rebuilds"/>
+						</div>
+					</div>
+					<div class="box">
+						<div class="heading"><h2>Partnerships</h2></div>
+						<div class="content">
+							<div class="list">
+								<ul>
+									<li><a href="#">Underdog Mobile Welding LLC</a></li>
+									<li><a href="#">Regional Fabrication Allies</a></li>
+									<li><a href="#">Independent Field Technicians</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="wrap-footer zerogrid">
+		<div class="row block09">
+			<div class="col-1-4">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2>About Us</h2></div>
+						<div class="content">
+							<p></p>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-1-4">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2>Hours of Operation</h2></div>
+						<div class="content">
+							<ul>
+								<li><a href="#">Friday - 9am to 5pm</a></li>
+								<li><a href="#">Saturday - 9am to 5pm</a></li>
+								<li><a href="#">Sunday - call for appointment</a></li>
+								
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-1-4">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2>Past Builds</h2></div>
+						<div class="content">
+							<div class="tag">
+								<a href="#">Red Rocket</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-1-4">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2>Contact Us</h2></div>
+						<div class="content">
+							<ul>
+								<li>Address : PO Box 2712 Hammond, La 70404</li>
+								<li>Phone : 915-269-8075</li>
+								<li>Email : underdogmobilewelding.com</li>
+								<li>Website : le-unique-generators.com</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row copyright">
+			<p>www.Le-Unique-Generators.com by Mandoman Productions</p>
+		</div>
+	</div>
+</footer>
+
+</body></html>
